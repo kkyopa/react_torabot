@@ -3,13 +3,13 @@ const defaultDataset = {
     answers: [
       { content: "仕事を依頼したい", nextId: "job_offer" },
       {
-        content: "エンジニアのキャリアについて相談したい",
+        content: "Webエンジニアについて知りたい",
         nextId: "consultant",
       },
-      { content: "学習コミュニティについて知りたい", nextId: "community" },
-      { content: "お付き合いしたい", nextId: "dating" },
+      { content: "ダーツについて知りたい", nextId: "community" },
+      { content: "キスしたい", nextId: "dating" },
     ],
-    question: "こんにちは！🐯トラハックへのご用件はなんでしょうか？",
+    question: "こんにちは！川田京助です。ご用件はなんでしょうか？",
   },
   job_offer: {
     answers: [
@@ -93,7 +93,7 @@ const defaultDataset = {
       { content: "DMする", nextId: "https://twitter.com/torahack_" },
       { content: "最初の質問に戻る", nextId: "init" },
     ],
-    question: "まずは一緒にランチでもいかがですか？DMしてください😘",
+    question: "あなたはえっちですね~まぁいいでしょうDM下さい!",
   },
 };
 
