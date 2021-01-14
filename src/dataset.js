@@ -52,20 +52,20 @@ const defaultDataset = {
   consultant: {
     answers: [
       {
-        content: "YouTubeで動画を見る",
-        nextId: "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w",
+        content: "ポートフォリオを見たい",
+        nextId: "http://kyosukekawada.com/",
       },
-      { content: "学習コミュニティについて知りたい", nextId: "community" },
+      { content: "経歴を知りたい", nextId: "community" },
       { content: "最初の質問に戻る", nextId: "init" },
     ],
     question:
-      "トラハックは普段からYouTubeでキャリアについて発信しています。また、僕が運営するエンジニア向け学習コミュニティ内でも相談に乗っていますよ。",
+      "今まで作成した作品や技術スタック、過去にアサインしたプロジェクトなど参照できます。また、未経験からWebエンジニアになるためにどうすればいいのかも相談に乗っています。",
   },
   community: {
     answers: [
       { content: "どんな活動をしているの？", nextId: "community_activity" },
       {
-        content: "コミュニティに参加したい",
+        content: "一緒にダーツをして見たい",
         nextId: "https://torahack.web.app/community/",
       },
       { content: "最初の質問に戻る", nextId: "init" },
@@ -90,7 +90,7 @@ const defaultDataset = {
   },
   dating: {
     answers: [
-      { content: "DMする", nextId: "https://twitter.com/torahack_" },
+      { content: "DMする", nextId: "https://twitter.com/kazumons" },
       { content: "最初の質問に戻る", nextId: "init" },
     ],
     question: "あなたはえっちですね~まぁいいでしょうDM下さい!",
